@@ -1,0 +1,126 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ApproximateSyncPolicy	click_rgb.cpp	/^        typedef message_filters::sync_policies::ApproximateTime<sensor_msgs::Image, sensor_msgs::Image, sensor_msgs::CameraInfo, sensor_msgs::CameraInfo> ApproximateSyncPolicy;$/;"	t	class:Receiver	file:
+ApproximateSyncPolicy	viewer.cpp	/^  typedef message_filters::sync_policies::ApproximateTime<sensor_msgs::Image, sensor_msgs::Image, sensor_msgs::CameraInfo, sensor_msgs::CameraInfo> ApproximateSyncPolicy;$/;"	t	class:Receiver	file:
+BOTH	click_rgb.cpp	/^            BOTH$/;"	e	enum:Receiver::Mode	file:
+BOTH	viewer.cpp	/^    BOTH$/;"	e	enum:Receiver::Mode	file:
+CLOUD	click_rgb.cpp	/^            CLOUD,$/;"	e	enum:Receiver::Mode	file:
+CLOUD	viewer.cpp	/^    CLOUD,$/;"	e	enum:Receiver::Mode	file:
+ExactSyncPolicy	click_rgb.cpp	/^        typedef message_filters::sync_policies::ExactTime<sensor_msgs::Image, sensor_msgs::Image, sensor_msgs::CameraInfo, sensor_msgs::CameraInfo> ExactSyncPolicy;$/;"	t	class:Receiver	file:
+ExactSyncPolicy	viewer.cpp	/^  typedef message_filters::sync_policies::ExactTime<sensor_msgs::Image, sensor_msgs::Image, sensor_msgs::CameraInfo, sensor_msgs::CameraInfo> ExactSyncPolicy;$/;"	t	class:Receiver	file:
+IMAGE	click_rgb.cpp	/^            IMAGE = 0,$/;"	e	enum:Receiver::Mode	file:
+IMAGE	viewer.cpp	/^    IMAGE = 0,$/;"	e	enum:Receiver::Mode	file:
+Mode	click_rgb.cpp	/^        enum Mode$/;"	g	class:Receiver	file:
+Mode	viewer.cpp	/^  enum Mode$/;"	g	class:Receiver	file:
+Receiver	click_rgb.cpp	/^        Receiver(const std::string &topicColor, const std::string &topicDepth, const bool useExact, const bool useCompressed)$/;"	f	class:Receiver
+Receiver	click_rgb.cpp	/^class Receiver$/;"	c	file:
+Receiver	viewer.cpp	/^  Receiver(const std::string &topicColor, const std::string &topicDepth, const bool useExact, const bool useCompressed)$/;"	f	class:Receiver
+Receiver	viewer.cpp	/^class Receiver$/;"	c	file:
+callback	click_rgb.cpp	/^        void callback(const sensor_msgs::Image::ConstPtr imageColor, const sensor_msgs::Image::ConstPtr imageDepth,$/;"	f	class:Receiver	file:
+callback	viewer.cpp	/^  void callback(const sensor_msgs::Image::ConstPtr imageColor, const sensor_msgs::Image::ConstPtr imageDepth,$/;"	f	class:Receiver	file:
+cameraMatrixColor	click_rgb.cpp	/^        cv::Mat cameraMatrixColor, cameraMatrixDepth;$/;"	m	class:Receiver	file:
+cameraMatrixColor	viewer.cpp	/^  cv::Mat cameraMatrixColor, cameraMatrixDepth;$/;"	m	class:Receiver	file:
+cameraMatrixDepth	click_rgb.cpp	/^        cv::Mat cameraMatrixColor, cameraMatrixDepth;$/;"	m	class:Receiver	file:
+cameraMatrixDepth	viewer.cpp	/^  cv::Mat cameraMatrixColor, cameraMatrixDepth;$/;"	m	class:Receiver	file:
+cloud	click_rgb.cpp	/^        pcl::PointCloud<pcl::PointXYZRGBA>::Ptr cloud;$/;"	m	class:Receiver	file:
+cloud	viewer.cpp	/^  pcl::PointCloud<pcl::PointXYZRGBA>::Ptr cloud;$/;"	m	class:Receiver	file:
+cloudViewer	click_rgb.cpp	/^        void cloudViewer() {$/;"	f	class:Receiver	file:
+cloudViewer	viewer.cpp	/^  void cloudViewer()$/;"	f	class:Receiver	file:
+color	click_rgb.cpp	/^        cv::Mat color, depth;$/;"	m	class:Receiver	file:
+color	viewer.cpp	/^  cv::Mat color, depth;$/;"	m	class:Receiver	file:
+combine	click_rgb.cpp	/^        void combine(const cv::Mat &inC, const cv::Mat &inD, cv::Mat &out)$/;"	f	class:Receiver	file:
+combine	viewer.cpp	/^  void combine(const cv::Mat &inC, const cv::Mat &inD, cv::Mat &out)$/;"	f	class:Receiver	file:
+createCloud	click_rgb.cpp	/^        void createCloud(const cv::Mat &depth, const cv::Mat &color, pcl::PointCloud<pcl::PointXYZRGBA>::Ptr &cloud) const$/;"	f	class:Receiver	file:
+createCloud	viewer.cpp	/^  void createCloud(const cv::Mat &depth, const cv::Mat &color, pcl::PointCloud<pcl::PointXYZRGBA>::Ptr &cloud) const$/;"	f	class:Receiver	file:
+createLookup	click_rgb.cpp	/^        void createLookup(size_t width, size_t height)$/;"	f	class:Receiver	file:
+createLookup	viewer.cpp	/^  void createLookup(size_t width, size_t height)$/;"	f	class:Receiver	file:
+depth	click_rgb.cpp	/^        cv::Mat color, depth;$/;"	m	class:Receiver	file:
+depth	viewer.cpp	/^  cv::Mat color, depth;$/;"	m	class:Receiver	file:
+dispDepth	click_rgb.cpp	/^        void dispDepth(const cv::Mat &in, cv::Mat &out, const float maxValue)$/;"	f	class:Receiver	file:
+dispDepth	viewer.cpp	/^  void dispDepth(const cv::Mat &in, cv::Mat &out, const float maxValue)$/;"	f	class:Receiver	file:
+frame	click_rgb.cpp	/^        size_t frame;$/;"	m	class:Receiver	file:
+frame	viewer.cpp	/^  size_t frame;$/;"	m	class:Receiver	file:
+help	click_rgb.cpp	/^void help(const std::string &path)$/;"	f
+help	viewer.cpp	/^void help(const std::string &path)$/;"	f
+imageViewer	click_rgb.cpp	/^        void imageViewer()$/;"	f	class:Receiver	file:
+imageViewer	viewer.cpp	/^  void imageViewer()$/;"	f	class:Receiver	file:
+imageViewerThread	click_rgb.cpp	/^        std::thread imageViewerThread;$/;"	m	class:Receiver	file:
+imageViewerThread	viewer.cpp	/^  std::thread imageViewerThread;$/;"	m	class:Receiver	file:
+it	click_rgb.cpp	/^        image_transport::ImageTransport it;$/;"	m	class:Receiver	file:
+it	viewer.cpp	/^  image_transport::ImageTransport it;$/;"	m	class:Receiver	file:
+keyboardEvent	click_rgb.cpp	/^        void keyboardEvent(const pcl::visualization::KeyboardEvent &event, void *)$/;"	f	class:Receiver	file:
+keyboardEvent	viewer.cpp	/^  void keyboardEvent(const pcl::visualization::KeyboardEvent &event, void *)$/;"	f	class:Receiver	file:
+leftBtnPointPub	click_rgb.cpp	/^        ros::Publisher leftBtnPointPub;$/;"	m	class:Receiver	file:
+lock	click_rgb.cpp	/^        std::mutex lock;$/;"	m	class:Receiver	file:
+lock	viewer.cpp	/^  std::mutex lock;$/;"	m	class:Receiver	file:
+lookupX	click_rgb.cpp	/^        cv::Mat lookupX, lookupY;$/;"	m	class:Receiver	file:
+lookupX	viewer.cpp	/^  cv::Mat lookupX, lookupY;$/;"	m	class:Receiver	file:
+lookupY	click_rgb.cpp	/^        cv::Mat lookupX, lookupY;$/;"	m	class:Receiver	file:
+lookupY	viewer.cpp	/^  cv::Mat lookupX, lookupY;$/;"	m	class:Receiver	file:
+main	click_rgb.cpp	/^int main(int argc, char **argv)$/;"	f
+main	viewer.cpp	/^int main(int argc, char **argv)$/;"	f
+mode	click_rgb.cpp	/^        Mode mode;$/;"	m	class:Receiver	file:
+mode	viewer.cpp	/^  Mode mode;$/;"	m	class:Receiver	file:
+mouseBtnType	click_rgb.cpp	/^std::atomic_int mouseBtnType;$/;"	v
+mouseX	click_rgb.cpp	/^std::atomic_int mouseX;$/;"	v
+mouseY	click_rgb.cpp	/^std::atomic_int mouseY;$/;"	v
+nh	click_rgb.cpp	/^        ros::NodeHandle nh;$/;"	m	class:Receiver	file:
+nh	viewer.cpp	/^  ros::NodeHandle nh;$/;"	m	class:Receiver	file:
+onMouse	click_rgb.cpp	/^void onMouse(int event, int x, int y, int flags, void* ustc) {$/;"	f
+oss	click_rgb.cpp	/^        std::ostringstream oss;$/;"	m	class:Receiver	file:
+oss	viewer.cpp	/^  std::ostringstream oss;$/;"	m	class:Receiver	file:
+params	click_rgb.cpp	/^        std::vector<int> params;$/;"	m	class:Receiver	file:
+params	viewer.cpp	/^  std::vector<int> params;$/;"	m	class:Receiver	file:
+queueSize	click_rgb.cpp	/^        const size_t queueSize;$/;"	m	class:Receiver	file:
+queueSize	viewer.cpp	/^  const size_t queueSize;$/;"	m	class:Receiver	file:
+readCameraInfo	click_rgb.cpp	/^        void readCameraInfo(const sensor_msgs::CameraInfo::ConstPtr cameraInfo, cv::Mat &cameraMatrix) const$/;"	f	class:Receiver	file:
+readCameraInfo	viewer.cpp	/^  void readCameraInfo(const sensor_msgs::CameraInfo::ConstPtr cameraInfo, cv::Mat &cameraMatrix) const$/;"	f	class:Receiver	file:
+readImage	click_rgb.cpp	/^        void readImage(const sensor_msgs::Image::ConstPtr msgImage, cv::Mat &image) const$/;"	f	class:Receiver	file:
+readImage	viewer.cpp	/^  void readImage(const sensor_msgs::Image::ConstPtr msgImage, cv::Mat &image) const$/;"	f	class:Receiver	file:
+rightBtnPointPub	click_rgb.cpp	/^        ros::Publisher rightBtnPointPub;$/;"	m	class:Receiver	file:
+run	click_rgb.cpp	/^        void run(const Mode mode)$/;"	f	class:Receiver
+run	viewer.cpp	/^  void run(const Mode mode)$/;"	f	class:Receiver
+running	click_rgb.cpp	/^        bool running;$/;"	m	class:Receiver	file:
+running	viewer.cpp	/^  bool running;$/;"	m	class:Receiver	file:
+save	click_rgb.cpp	/^        bool save;$/;"	m	class:Receiver	file:
+save	viewer.cpp	/^  bool save;$/;"	m	class:Receiver	file:
+saveCloudAndImages	click_rgb.cpp	/^        void saveCloudAndImages(const pcl::PointCloud<pcl::PointXYZRGBA>::ConstPtr cloud, const cv::Mat &color, const cv::Mat &depth, const cv::Mat &depthColored)$/;"	f	class:Receiver	file:
+saveCloudAndImages	viewer.cpp	/^  void saveCloudAndImages(const pcl::PointCloud<pcl::PointXYZRGBA>::ConstPtr cloud, const cv::Mat &color, const cv::Mat &depth, const cv::Mat &depthColored)$/;"	f	class:Receiver	file:
+spinner	click_rgb.cpp	/^        ros::AsyncSpinner spinner;$/;"	m	class:Receiver	file:
+spinner	viewer.cpp	/^  ros::AsyncSpinner spinner;$/;"	m	class:Receiver	file:
+start	click_rgb.cpp	/^        void start(const Mode mode)$/;"	f	class:Receiver	file:
+start	viewer.cpp	/^  void start(const Mode mode)$/;"	f	class:Receiver	file:
+stop	click_rgb.cpp	/^        void stop()$/;"	f	class:Receiver	file:
+stop	viewer.cpp	/^  void stop()$/;"	f	class:Receiver	file:
+subCameraInfoColor	click_rgb.cpp	/^        message_filters::Subscriber<sensor_msgs::CameraInfo> *subCameraInfoColor, *subCameraInfoDepth;$/;"	m	class:Receiver	file:
+subCameraInfoColor	viewer.cpp	/^  message_filters::Subscriber<sensor_msgs::CameraInfo> *subCameraInfoColor, *subCameraInfoDepth;$/;"	m	class:Receiver	file:
+subCameraInfoDepth	click_rgb.cpp	/^        message_filters::Subscriber<sensor_msgs::CameraInfo> *subCameraInfoColor, *subCameraInfoDepth;$/;"	m	class:Receiver	file:
+subCameraInfoDepth	viewer.cpp	/^  message_filters::Subscriber<sensor_msgs::CameraInfo> *subCameraInfoColor, *subCameraInfoDepth;$/;"	m	class:Receiver	file:
+subImageColor	click_rgb.cpp	/^        image_transport::SubscriberFilter *subImageColor, *subImageDepth;$/;"	m	class:Receiver	file:
+subImageColor	viewer.cpp	/^  image_transport::SubscriberFilter *subImageColor, *subImageDepth;$/;"	m	class:Receiver	file:
+subImageDepth	click_rgb.cpp	/^        image_transport::SubscriberFilter *subImageColor, *subImageDepth;$/;"	m	class:Receiver	file:
+subImageDepth	viewer.cpp	/^  image_transport::SubscriberFilter *subImageColor, *subImageDepth;$/;"	m	class:Receiver	file:
+syncApproximate	click_rgb.cpp	/^        message_filters::Synchronizer<ApproximateSyncPolicy> *syncApproximate;$/;"	m	class:Receiver	file:
+syncApproximate	viewer.cpp	/^  message_filters::Synchronizer<ApproximateSyncPolicy> *syncApproximate;$/;"	m	class:Receiver	file:
+syncExact	click_rgb.cpp	/^        message_filters::Synchronizer<ExactSyncPolicy> *syncExact;$/;"	m	class:Receiver	file:
+syncExact	viewer.cpp	/^  message_filters::Synchronizer<ExactSyncPolicy> *syncExact;$/;"	m	class:Receiver	file:
+topicColor	click_rgb.cpp	/^        const std::string topicColor, topicDepth;$/;"	m	class:Receiver	file:
+topicColor	viewer.cpp	/^  const std::string topicColor, topicDepth;$/;"	m	class:Receiver	file:
+topicDepth	click_rgb.cpp	/^        const std::string topicColor, topicDepth;$/;"	m	class:Receiver	file:
+topicDepth	viewer.cpp	/^  const std::string topicColor, topicDepth;$/;"	m	class:Receiver	file:
+updateCloud	click_rgb.cpp	/^        bool updateImage, updateCloud;$/;"	m	class:Receiver	file:
+updateCloud	viewer.cpp	/^  bool updateImage, updateCloud;$/;"	m	class:Receiver	file:
+updateImage	click_rgb.cpp	/^        bool updateImage, updateCloud;$/;"	m	class:Receiver	file:
+updateImage	viewer.cpp	/^  bool updateImage, updateCloud;$/;"	m	class:Receiver	file:
+useCompressed	click_rgb.cpp	/^        const bool useExact, useCompressed;$/;"	m	class:Receiver	file:
+useCompressed	viewer.cpp	/^  const bool useExact, useCompressed;$/;"	m	class:Receiver	file:
+useExact	click_rgb.cpp	/^        const bool useExact, useCompressed;$/;"	m	class:Receiver	file:
+useExact	viewer.cpp	/^  const bool useExact, useCompressed;$/;"	m	class:Receiver	file:
+writer	click_rgb.cpp	/^        pcl::PCDWriter writer;$/;"	m	class:Receiver	file:
+writer	viewer.cpp	/^  pcl::PCDWriter writer;$/;"	m	class:Receiver	file:
+~Receiver	click_rgb.cpp	/^        ~Receiver()$/;"	f	class:Receiver
+~Receiver	viewer.cpp	/^  ~Receiver()$/;"	f	class:Receiver
